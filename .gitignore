@@ -1,0 +1,57 @@
+# ============================================================
+# PYTHON / ML / THESIS - CLEAN .gitignore
+# ============================================================
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+
+# Tests / Coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML Weights
+*.pth
+*.pt
+*.onnx
+
+# ============================================================
+# DATASET: push folder structure only (.gitkeep), not contents
+# ============================================================
+Data/
+!Data/**/
+!Data/**/.gitkeep
