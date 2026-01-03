@@ -52,6 +52,12 @@ Thumbs.db
 # ============================================================
 # DATASET: push folder structure only (.gitkeep), not contents
 # ============================================================
-Data/
-!Data/**/
+
+# Ignore semua isi di dalam Data
+Data/*
+
+# Kecuali folder (supaya bisa masuk ke dalamnya)
+!Data/*/
+
+# Izinkan .gitkeep di mana pun
 !Data/**/.gitkeep
