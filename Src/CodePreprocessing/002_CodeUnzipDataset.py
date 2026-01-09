@@ -14,7 +14,7 @@ import sys
 
 
 def main():
-    # Root project (…/triasetyani.thesis)
+    # Root project (…/helmanopijaniheidy.thesis)
     project_root = Path(__file__).resolve().parents[2]
 
     # Path dataset
